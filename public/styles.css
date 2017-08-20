@@ -1,0 +1,87 @@
+/*
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Open Sans', sans-serif;
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: rgb(66, 65, 77);
+}
+
+main {
+  padding-top: 150px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: rgb(190, 190, 190);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 30px;
+}
+
+.home>a>h2 {
+  color: rgb(66, 65, 77);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(66, 65, 77);
+  background-color: rgb(190, 190, 190);
+  padding: 5px 14px;
+  border-radius: 3px;
+}
+
+input {
+  margin: 10px 5px;
+  background-color: rgb(217, 213, 213);
+  padding: 5px 5px;
+  border-radius: 3px;
+  color: rgb(66, 65, 77);
+  border-style: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form>button {
+  text-decoration: none;
+  color: rgb(66, 65, 77);
+  background-color: rgb(190, 190, 190);
+  padding: 5px 14px;
+  border-radius: 3px;
+  border-style: none;
+}
+
+.loginCont>a {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgb(66, 65, 77);
+  background-color: rgb(190, 190, 190);
+  padding: 5px 14px;
+  border-radius: 3px;
+
+}
+
+.admin a {
+  margin-top: 20px;
+}
+
+.admin p {
+  background-color: rgb(190, 190, 190);
+  color: rgb(66, 65, 77);
+  padding: 5px 10px;
+}
